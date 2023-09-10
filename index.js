@@ -24,3 +24,4 @@ setInterval(updateDateTime, 1000);
 
 // To  Initialize date and time
 updateDateTime();
+
