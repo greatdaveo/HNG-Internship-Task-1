@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <main>
+      <div>
+        <!--My Slack Display Picture -->
+        <img
+          src="./david-olowomeye-passport-photograph.png"
+          alt="Olowomeye David"
+          data-testid="slackDisplayImage"
+        />
+
+        <!-- My  Slack Name -->
+        <h1 data-testid="slackUserName">Olowomeye David</h1>
+
+          <!-- My Track -->
+        <p data-testid="myTrack" class="track">Frontend</p>
+      </div>
+
+      <div>
+        <div>
+          <p data-testid="currentDayOfTheWeek"></p>
+          <p data-testid="currentUTCTime"></p>
+        </div>
+        
+        <!-- GitHub URL -->
+        <a
+          href="https://github.com/yourusername/your-repo"
+          data-testid="githubURL"
+          >GitHub Repository</a
+        >
+      </div>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
